@@ -1,0 +1,198 @@
+#page 
+{ 
+    background:white;
+    height: auto;
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+}
+
+#header_inner 
+{ 
+    margin:0 auto; 
+    padding:10px; 
+    width:970px;
+    background:#eee;
+}
+
+#logo 
+{ 
+    padding:10px; 
+    width:auto; 
+    float:left;
+}
+
+#logo h1 a, h1 a:hover 
+{ 
+    color:darkblue; 
+    text-decoration:none;
+}
+
+#logo h1 span 
+{ 
+    color:#d3d3f9;
+}
+
+
+h1, h2, h3, h4, h5, h6 
+{
+    color:darkblue;
+}
+
+.space 
+{ 
+    clear:both; 
+    padding:15px; 
+    margin:0; 
+    width:100%; 
+    font-size:0px; 
+    line-height:0px;
+}
+
+#top-nav 
+{ 
+    margin:0 auto; 
+    padding:0px 0 0; 
+    height:37px; 
+    float:right;
+}
+#top-nav ul 
+{ list-style:none; 
+    padding:0; 
+    height:37px; 
+    float:left;
+}
+#top-nav ul li 
+{ 
+    margin:0; 
+    padding:0 0 0 8px; 
+    float:left;
+}
+
+#top-nav ul li a 
+{ 
+    display:block; 
+    margin:0; 
+    padding:8px 20px; 
+    color:blue; 
+    text-decoration:none;
+}
+#top-nav ul li.active a, #top-nav ul li a:hover 
+{ 
+    color:#d3d3f9;
+}
+
+body 
+{ 
+    margin:0; 
+    padding:0; 
+    width:100%;
+    height: auto;
+    color:#959595; 
+    font:normal 12px/2.0em Sans-Serif;
+} 
+
+.feature 
+{ 
+    background:white;
+    padding:0;
+}
+.feature-inner 
+{ 
+    margin:auto;
+    padding:10px;
+    width:970px;
+    background:blue; 
+}
+.feature-inner h1 
+{
+    color:#d3d3f9;font-size:32px;
+}
+
+#newsfeed_inner 
+{ margin:0 auto; 
+    padding:10px; 
+    width:970px;
+    height:450px;
+    background:#fff;
+}
+
+#newsfeed #posts 
+{ 
+    margin:0; 
+    padding:0; 
+    float:right; 
+    width:760px;
+    height: auto;
+    
+}
+#newsfeed #posts .article 
+{ 
+    margin:0 0 24px; 
+    padding:0 20px 0 15px;
+
+    
+}
+
+footer ul li, footer ul
+{
+    display:inline;
+    margin:10px;
+    padding:0px;
+}
+            
+            
+footer
+{
+    display:flex;
+    justify-content: space-between;
+    margin:0px;
+    padding:0px;
+    height:40px;
+    color:#666;
+    background-color:#f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
+            
+ footer ul li:hover
+{
+    text-decoration: underline;
+}
+      
+.name
+{
+    color: cornflowerblue;
+    font-family: sans-serif;
+    font-size: 25px;
+    background: #eee;
+}
+
+.name:hover
+{
+    color:cyan;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.text
+{
+   color: black;
+    font-family: sans-serif;
+    font-size: 18px;  
+    background: #eee;
+}
+
+.title
+{
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: #eee;
+}
