@@ -2,8 +2,7 @@
 
 $(document).ready(function( ){
 
-        var aDiv= document.createElement('div');
-                
+        
         var root = 'https://jsonplaceholder.typicode.com';
         
         for(i=100; i>90; i--)
@@ -19,7 +18,7 @@ $(document).ready(function( ){
                                 console.log(data[0].body);
                             
                             
-                            console.log(tempname);
+                            
                             
                             $("#newsfeed_inner").append('<div class="article"><div class="name">'+data[0].userId+'</div><div class="title">'+data[0].title+'</div><div class="text">'+data[0].body+'</div><div class="space"></div></div>')    
                         }
