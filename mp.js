@@ -3,17 +3,9 @@
 $(document).ready(function( ){
 
         var aDiv= document.createElement('div');
-                aDiv.className="article";
-                            var nDiv= document.createElement('div');
-                nDiv.className="name";
-                            var tiDiv= document.createElement('div');
-                tiDiv.className="title";
-                            var teDiv= document.createElement('div');
-                teDiv.className="text";
+                
         var root = 'https://jsonplaceholder.typicode.com';
-        var tempname;
-        var temptitle;
-        var tempbody;
+        
         for(i=100; i>90; i--)
             {
                 $.ajax({
