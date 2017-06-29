@@ -1,0 +1,134 @@
+body {
+    background-color:  #eee ;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#container {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color:  #66ccff ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav.selected {
+    font-weight: bold;
+}
+
+#main {
+    width: 600px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: center;
+}
+
+#more {
+    clear: both;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+#more:hover
+{
+    cursor: pointer;
+    background-color: burlywood;
+    
+}
+
+ #home:hover
+{
+    cursor: pointer;
+    
+    
+}
+#users:hover
+{
+    cursor: pointer;
+    
+    
+}
+#photos:hover
+{
+    cursor: pointer;
+    
+    
+}
+
+#albums:hover
+{
+    cursor: pointer;
+    
+    
+}
+
+.name
+{
+    color: cornflowerblue;
+    font-family: sans-serif;
+    font-size: 25px;
+    background: #eee;
+}
+
+.nameHome
+{
+    color: cornflowerblue;
+    font-family: sans-serif;
+    font-size: 25px;
+    background: #eee;
+}
+
+.name:hover
+{
+    color:cyan;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.space 
+{ 
+    clear:both; 
+    padding:15px; 
+    margin:0; 
+    width:100%; 
+    font-size:0px; 
+    line-height:0px;
+}
+
