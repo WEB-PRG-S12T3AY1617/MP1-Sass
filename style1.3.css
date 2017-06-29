@@ -72,6 +72,23 @@ h1, h2, h3 {
     
 }
 
+#moreUser
+{
+    clear: both;
+    padding: 10px;
+    background-color: transparent;
+    color: gray;
+    text-align: center;
+}
+
+#moreUser:hover
+{
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
+
+
  #home:hover
 {
     cursor: pointer;
@@ -130,5 +147,21 @@ h1, h2, h3 {
     width:100%; 
     font-size:0px; 
     line-height:0px;
+}
+
+.text
+{
+   color: black;
+    font-family: sans-serif;
+    font-size: 15px;  
+    background: #eee;
+}
+
+.title
+{
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: #eee;
 }
 
